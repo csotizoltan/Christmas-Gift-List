@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <!-- Main  -->
+
+    <color name="tvTitle">#EED81919</color>
+    <color name="btnMainTextColor">#E8E4E4</color>
+
+
+    <!-- Button Main View -->
+
+    <color name="btnMainPressedBorderColorView">#FEFDF6</color>
+    <color name="btnMainPressedStartColorView">#345953</color>
+    <color name="btnMainPressedEndColorView">#689a92</color>
+
+    <color name="btnMainShapeBorderColorView">#FEFDF6</color>
+    <color name="btnMainShapeStartColorView">#8dbab3</color>
+    <color name="btnMainShapeEndColorView">#58857e</color>
+
+
+    <!-- Button Main Add -->
+
+    <color name="btnMainPressedBorderColorAdd">#FEFDF6</color>
+    <color name="btnMainPressedStartColorAdd">#6B1098</color>
+    <color name="btnMainPressedEndColorAdd">#A264C1</color>
+
+    <color name="btnMainShapeBorderColorAdd">#FEFDF6</color>
+    <color name="btnMainShapeStartColorAdd">#A264C1</color>
+    <color name="btnMainShapeEndColorAdd">#6B1098</color>
+
+
+
+    <!-- Activity Gift View  -->
+
+    <color name="tvViewTitle">#EED81919</color>
+    <color name="btnViewTextColor">#E8E4E4</color>
+
+    <!-- Button Add Back -->
+
+    <color name="btnMainPressedBorderColorViewBack">#FEFDF6</color>
+    <color name="btnMainPressedStartColorViewBack">#FFAB00</color>
+    <color name="btnMainPressedEndColorViewBack">#C3A76E</color>
+
+    <color name="btnMainShapeBorderColorViewBack">#FEFDF6</color>
+    <color name="btnMainShapeStartColorViewBack">#C3A76E</color>
+    <color name="btnMainShapeEndColorViewBack">#FFAB00</color>
+
+
+
+    <!-- Activity Gift Add  -->
+
+    <color name="tvAddTitle">#EED81919</color>
+    <color name="btnAddTextColor">#E8E4E4</color>
+
+    <!-- Button Add Back -->
+
+    <color name="btnMainPressedBorderColorAddBack">#FEFDF6</color>
+    <color name="btnMainPressedStartColorAddBack">#FFAB00</color>
+    <color name="btnMainPressedEndColorAddBack">#C3A76E</color>
+
+    <color name="btnMainShapeBorderColorAddBack">#FEFDF6</color>
+    <color name="btnMainShapeStartColorAddBack">#C3A76E</color>
+    <color name="btnMainShapeEndColorAddBack">#FFAB00</color>
+
+
+
+    <!-- Activity About -->
+
+    <color name="tvAboutTitle">#9C27B0</color>
+    <color name="tvAboutDeveloper">#C15151</color>
+    <color name="tvAboutGitHub">#304FFE</color>
+    <color name="tvAboutUrl">#304FFE</color>
+    <color name="tvAboutEmail">#16532F</color>
+
+</resources>

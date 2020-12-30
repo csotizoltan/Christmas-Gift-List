@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Christmas Gift List</string>
+    <string name="btnView">Ajándéklista</string>
+    <string name="btnAdd">Ajándék ötlet hozzáadása</string>
+
+
+    <!-- ActionBar -->
+
+    <string name="manuActivityMain" translatable="false">Menü</string>
+    <string name="menuView">Ajándéklista</string>
+    <string name="menuAdd">Ajándék ötlet hozzáadása</string>
+    <string name="menuAbout" translatable="false">Alkalmazásról</string>
+    <string name="menuExit" translatable="false">Kilépés</string>
+
+
+    <!-- Activity About -->
+
+    <string name="about_title" translatable="false">Christmas Gift List v0.1</string>
+    <string name="about_developer" translatable="false">Developed by\nCsóti Zoltán</string>
+    <string name="about_github" translatable="false">https://github.com/csotizoltan/Lotti</string>
+    <string name="about_www" translatable="false">http://users.atw.hu/czoltan/</string>
+    <string name="about_email" translatable="false">csoti.zoltan@gmail.com</string>
+</resources>

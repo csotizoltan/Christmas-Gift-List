@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:title="@string/manuActivityMain"
+        android:icon="@android:drawable/ic_dialog_info"
+        app:showAsAction="never"
+        android:id="@+id/abAddMain">
+    </item>
+
+    <item
+        android:title="@string/menuView"
+        android:icon="@android:drawable/ic_dialog_info"
+        app:showAsAction="never"
+        android:id="@+id/abAddViewGift">
+    </item>
+
+    <item
+        android:title="@string/menuAbout"
+        android:icon="@android:drawable/ic_dialog_info"
+        app:showAsAction="never"
+        android:id="@+id/abAddAbout">
+    </item>
+
+    <item
+        android:id="@+id/exit"
+        android:title="@string/menuExit"
+        app:showAsAction="never">
+    </item>
+
+</menu>
