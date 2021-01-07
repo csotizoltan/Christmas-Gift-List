@@ -11,8 +11,8 @@
 
     <item
         android:title="@string/menuView"
-        android:icon="@android:drawable/ic_dialog_info"
-        app:showAsAction="never"
+        android:icon="@android:drawable/ic_menu_more"
+        app:showAsAction="always"
         android:id="@+id/abAddViewGift">
     </item>
 

@@ -16,6 +16,20 @@
         android:gravity="center">
     </TextView>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="550sp"
+        android:textSize="23sp"
+        android:textColor="@color/tvGiftList"
+        android:lineSpacingExtra="-2sp"
+        android:layout_marginTop="75sp"
+        android:layout_marginBottom="40sp"
+        android:layout_marginStart="20sp"
+        android:maxLines="99"
+        android:id="@+id/tvViewGift">
+    </TextView>
+
+
     <android.widget.Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

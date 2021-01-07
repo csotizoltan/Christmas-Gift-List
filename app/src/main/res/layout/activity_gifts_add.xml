@@ -16,6 +16,54 @@
         android:gravity="center">
     </TextView>
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:hint="Kinek szeretnéd az ajándékot?"
+        android:layout_marginTop="75sp"
+        android:id="@+id/etAddPerson">
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:hint="Mi legyen az ajándék?"
+        android:layout_marginTop="125sp"
+        android:id="@+id/etAddGift">
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:hint="Megjegyzés az ajándékhoz"
+        android:layout_marginTop="175sp"
+        android:id="@+id/etAddGiftNotes">
+    </EditText>
+
+<!--    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Megvásároltam / elkészítetttem"
+        android:layout_marginLeft="0sp"
+        android:layout_marginTop="225sp"
+        android:id="@+id/cbBought">
+    </CheckBox>-->
+
+    <android.widget.Button
+        android:layout_width="230sp"
+        android:layout_height="37sp"
+        android:text="Hozzáad"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_add_gift"
+        android:textColor="@color/btnAddTextColor"
+        android:layout_marginTop="285sp"
+        android:id="@+id/btnAddGift">
+    </android.widget.Button>
+
     <android.widget.Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

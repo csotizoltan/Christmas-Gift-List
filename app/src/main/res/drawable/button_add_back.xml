@@ -3,22 +3,22 @@
     <item android:state_pressed="true" >
         <shape android:shape="rectangle"  >
             <corners android:radius="22dip" />
-            <stroke android:width="1dip" android:color="@color/btnMainPressedBorderColorAddBack" />
-            <gradient android:angle="-90" android:startColor="@color/btnMainPressedStartColorAddBack" android:endColor="@color/btnMainPressedEndColorAddBack"  />
+            <stroke android:width="1dip" android:color="@color/btnAddGiftPressedBorderColorBack" />
+            <gradient android:angle="-90" android:startColor="@color/btnAddGiftPressedStartColorBack" android:endColor="@color/btnAddGiftPressedEndColorBack"  />
         </shape>
     </item>
     <item android:state_focused="true">
         <shape android:shape="rectangle"  >
             <corners android:radius="22dip" />
-            <stroke android:width="1dip" android:color="@color/btnMainPressedBorderColorAddBack" />
-            <solid android:color="@color/btnMainShapeEndColorAddBack"/>
+            <stroke android:width="1dip" android:color="@color/btnAddGiftPressedBorderColorBack" />
+            <solid android:color="@color/btnAddGiftShapeEndColorBack"/>
         </shape>
     </item>
     <item >
         <shape android:shape="rectangle"  >
             <corners android:radius="22dip" />
-            <stroke android:width="1dip" android:color="@color/btnMainShapeBorderColorAddBack" />
-            <gradient android:angle="-90" android:startColor="@color/btnMainShapeStartColorAddBack" android:endColor="@color/btnMainShapeEndColorAddBack" />
+            <stroke android:width="1dip" android:color="@color/btnAddGiftShapeBorderColorBack" />
+            <gradient android:angle="-90" android:startColor="@color/btnAddGiftShapeStartColorBack" android:endColor="@color/btnAddGiftShapeEndColorBack" />
         </shape>
     </item>
 </selector>

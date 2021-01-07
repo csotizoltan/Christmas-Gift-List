@@ -42,8 +42,9 @@
 
     <color name="tvViewTitle">#EED81919</color>
     <color name="btnViewTextColor">#E8E4E4</color>
+    <color name="tvGiftList">#987D89</color>
 
-    <!-- Button Add Back -->
+    <!-- Button View Back -->
 
     <color name="btnMainPressedBorderColorViewBack">#FEFDF6</color>
     <color name="btnMainPressedStartColorViewBack">#FFAB00</color>
@@ -55,20 +56,31 @@
 
 
 
-    <!-- Activity Gift Add  -->
+    <!-- Activity Add Gift  -->
 
     <color name="tvAddTitle">#EED81919</color>
     <color name="btnAddTextColor">#E8E4E4</color>
 
+    <!-- Button Add Gift -->
+
+    <color name="btnAddPressedBorderColorAddGift">#FEFDF6</color>
+    <color name="btnAddPressedStartColorAddGift">#345953</color>
+    <color name="btnAddPressedEndColorAddGift">#689a92</color>
+
+    <color name="btnAddShapeBorderColorAddGift">#FEFDF6</color>
+    <color name="btnAddShapeStartColorAddGift">#8dbab3</color>
+    <color name="btnAddShapeEndColorAddGift">#58857e</color>
+
     <!-- Button Add Back -->
 
-    <color name="btnMainPressedBorderColorAddBack">#FEFDF6</color>
-    <color name="btnMainPressedStartColorAddBack">#FFAB00</color>
-    <color name="btnMainPressedEndColorAddBack">#C3A76E</color>
+    <color name="btnAddGiftPressedBorderColorBack">#FEFDF6</color>
+    <color name="btnAddGiftPressedStartColorBack">#FFAB00</color>
+    <color name="btnAddGiftPressedEndColorBack">#C3A76E</color>
 
-    <color name="btnMainShapeBorderColorAddBack">#FEFDF6</color>
-    <color name="btnMainShapeStartColorAddBack">#C3A76E</color>
-    <color name="btnMainShapeEndColorAddBack">#FFAB00</color>
+    <color name="btnAddGiftShapeBorderColorBack">#FEFDF6</color>
+    <color name="btnAddGiftShapeStartColorBack">#C3A76E</color>
+    <color name="btnAddGiftShapeEndColorBack">#FFAB00</color>
+
 
 
 
@@ -79,5 +91,15 @@
     <color name="tvAboutGitHub">#304FFE</color>
     <color name="tvAboutUrl">#304FFE</color>
     <color name="tvAboutEmail">#16532F</color>
+
+    <!-- Button About Back -->
+
+    <color name="btnAboutPressedBorderColorBack">#FEFDF6</color>
+    <color name="btnAboutPressedStartColorBack">#FFAB00</color>
+    <color name="btnAboutPressedEndColorBack">#C3A76E</color>
+
+    <color name="btnAboutShapeBorderColorBack">#FEFDF6</color>
+    <color name="btnAboutShapeStartColorBack">#C3A76E</color>
+    <color name="btnAboutShapeEndColorBack">#FFAB00</color>
 
 </resources>
