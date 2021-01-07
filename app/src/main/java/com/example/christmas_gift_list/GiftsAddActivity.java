@@ -51,7 +51,27 @@ public class GiftsAddActivity extends AppCompatActivity {
         String gift = etAddGift.getText().toString().trim();
         String gift_notes = etAddGiftNotes.getText().toString().trim();
 
-        String bought = null;
+        String bought = "no";
+
+        if (person.isEmpty()) {
+            Toast.makeText(this, "Add meg, hogy kinek szeretnéd az ajándékot!", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+        if (person.length() < 2) {
+            Toast.makeText(this, "A személy neve legalább kettő karakter hosszú legyen!", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+        if (gift.isEmpty()) {
+            Toast.makeText(this, "Add meg, hogy mi legyen az ajándék!", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+        if (gift.length() < 2) {
+            Toast.makeText(this, "Az ajándék neve legalább kettő karakter hosszú legyen!", Toast.LENGTH_SHORT).show();
+            return;
+        }
 
         /*if (cbBought.isChecked()) {
             bought = "yes";

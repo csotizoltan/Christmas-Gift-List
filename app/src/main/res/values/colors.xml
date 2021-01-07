@@ -82,6 +82,16 @@
     <color name="btnAddGiftShapeEndColorBack">#FFAB00</color>
 
 
+    <!-- EditText -->
+
+    <color name="etAddPersonBorder">#D50000</color>
+    <color name="etAddGiftBorder">#FF6D00</color>
+    <color name="etAddGiftNotesBorder">#9B7DC5</color>
+
+    <color name="etAddPersonBackground">#FEFDF6</color>
+    <color name="etAddGiftBackground">#FEFDF6</color>
+    <color name="etAddNotesNotesBackground">#FEFDF6</color>
+
 
 
     <!-- Activity About -->

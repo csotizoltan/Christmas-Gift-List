@@ -12,34 +12,46 @@
         android:text="@string/btnAdd"
         android:textSize="28sp"
         android:textColor="@color/teal_700"
-        android:layout_marginTop="20sp"
+        android:layout_marginTop="18sp"
         android:gravity="center">
     </TextView>
 
     <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="320sp"
+        android:layout_height="47sp"
         android:textSize="22sp"
         android:hint="Kinek szeretnéd az ajándékot?"
-        android:layout_marginTop="75sp"
+        android:background="@drawable/edittext_add_person"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:ems="10"
+        android:layout_marginTop="70sp"
         android:id="@+id/etAddPerson">
     </EditText>
 
     <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="320sp"
+        android:layout_height="47sp"
         android:textSize="22sp"
         android:hint="Mi legyen az ajándék?"
-        android:layout_marginTop="125sp"
+        android:background="@drawable/edittext_add_gift"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:ems="10"
+        android:layout_marginTop="130sp"
         android:id="@+id/etAddGift">
     </EditText>
 
     <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="320sp"
+        android:layout_height="47sp"
         android:textSize="22sp"
-        android:hint="Megjegyzés az ajándékhoz"
-        android:layout_marginTop="175sp"
+        android:hint="Megjegyzés..."
+        android:background="@drawable/edittext_add_notes"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:ems="10"
+        android:layout_marginTop="190sp"
         android:id="@+id/etAddGiftNotes">
     </EditText>
 
@@ -53,14 +65,15 @@
     </CheckBox>-->
 
     <android.widget.Button
-        android:layout_width="230sp"
-        android:layout_height="37sp"
+        android:layout_width="322sp"
+        android:layout_height="50sp"
         android:text="Hozzáad"
         android:textSize="20sp"
         android:textStyle="bold"
         android:background="@drawable/button_add_gift"
         android:textColor="@color/btnAddTextColor"
-        android:layout_marginTop="285sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="258sp"
         android:id="@+id/btnAddGift">
     </android.widget.Button>
 
