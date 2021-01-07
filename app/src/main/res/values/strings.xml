@@ -15,7 +15,7 @@
 
     <!-- Activity About -->
 
-    <string name="about_title" translatable="false">Christmas Gift List v0.1</string>
+    <string name="about_title" translatable="false">Christmas Gift List v0.2</string>
     <string name="about_developer" translatable="false">Developed by\nCsóti Zoltán</string>
     <string name="about_github" translatable="false">https://github.com/csotizoltan/Christmas-Gift-List</string>
     <string name="about_www" translatable="false">http://users.atw.hu/czoltan/</string>

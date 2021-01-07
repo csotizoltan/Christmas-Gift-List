@@ -85,7 +85,7 @@
     <!-- EditText -->
 
     <color name="etAddPersonBorder">#D50000</color>
-    <color name="etAddGiftBorder">#FF6D00</color>
+    <color name="etAddGiftBorder">#B88B2D</color>
     <color name="etAddGiftNotesBorder">#9B7DC5</color>
 
     <color name="etAddPersonBackground">#FEFDF6</color>

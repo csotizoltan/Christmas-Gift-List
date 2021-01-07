@@ -9,15 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Christmas_Gift_List">
-        <activity android:name=".AboutActivity"></activity>
-        <activity android:name=".GiftsAddActivity" />
-        <activity android:name=".GiftsViewActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".GiftsAddActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".GiftsViewActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".AboutActivity"
+            android:screenOrientation="portrait">
         </activity>
     </application>
 
